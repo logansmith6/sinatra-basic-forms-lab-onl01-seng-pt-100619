@@ -18,7 +18,7 @@ class Puppy
   end
 
   def age
-    @age * 12
+    @age
   end
 
 
