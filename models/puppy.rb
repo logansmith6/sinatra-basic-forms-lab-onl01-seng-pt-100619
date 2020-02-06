@@ -5,7 +5,7 @@ class Puppy
 
   def initialize(name, breed, age)
     @breed = breed
-    @age = age.to_i.months
+    @age = age.to_i
     @name = name
   end
 
@@ -18,7 +18,7 @@ class Puppy
   end
 
   def age
-    @age
+    @age * 12
   end
 
 
