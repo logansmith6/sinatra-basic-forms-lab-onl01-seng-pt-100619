@@ -18,7 +18,7 @@ class Puppy
   end
 
   def puppy_age
-    @age * 12
+    @age.to_i * 12
   end
 
 
