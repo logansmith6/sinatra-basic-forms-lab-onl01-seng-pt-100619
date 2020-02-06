@@ -17,7 +17,7 @@ class Puppy
     @breed
   end
 
-  def puppy_age
+  def age
     @age
   end
 
